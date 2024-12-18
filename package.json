@@ -2,6 +2,7 @@
   "name": "validate-npm-package-name",
   "version": "6.0.0",
   "description": "Give me a string and I'll tell you if it's a valid npm package name",
+  "private": true,
   "main": "lib/",
   "directories": {
     "test": "test"
@@ -26,7 +27,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/npm/validate-npm-package-name.git"
+    "url": "git+https://github.com/DeadCodeGames/validate-npm-package-name.git"
   },
   "keywords": [
     "npm",
@@ -35,6 +36,9 @@
     "validation"
   ],
   "author": "GitHub Inc.",
+  "contributors": [
+    "Richard Kanshen @ DeadCodeGames <kanshen@mail.deadcode.is-a.dev> (https://deadcode.is-a.dev)"
+  ],
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/npm/validate-npm-package-name/issues"
